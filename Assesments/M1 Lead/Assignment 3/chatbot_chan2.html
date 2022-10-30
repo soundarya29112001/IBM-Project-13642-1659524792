@@ -1,0 +1,47 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>CHAT BOT</title>
+        <style>
+            body{
+                background-color: rgb(202, 227, 235);
+            }
+            img{
+                width: 200px; 
+                height: 100px;
+                margin-left: 10px;
+            }
+            h2{
+                text-align:center;
+                color: rgb(146, 21, 21);
+            }
+            h3{
+                text-align:center;
+                color:rgb(7, 5, 6);
+            }
+        </style>
+    </head>
+    <body>
+        <h2>SHOPPING MALL</h2>
+        <h2><img src="https://chandra2.s3.jp-tok.cloud-object-storage.appdomain.cloud/chat%20bot.svg"></h2>
+        <p>
+            <h3>We Are Providing Shopping Centres Near By You !!!</h3>
+            <h3> Click  The Virtual Chat Bot </h3> 
+        </p>
+
+
+<script>
+  window.watsonAssistantChatOptions = {
+    integrationID: "4c91e9a3-5a03-4327-8c1a-8a2cf0126bad", // The ID of this integration.
+    region: "au-syd", // The region your integration is hosted in.
+    serviceInstanceID: "2263e83b-2b19-4855-a785-d2d4a38ffb88", // The ID of your service instance.
+    onLoad: function(instance) { instance.render(); }
+  };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+    document.head.appendChild(t);
+  });
+</script>
+</body>
+</html>
