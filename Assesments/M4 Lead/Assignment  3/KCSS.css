@@ -1,0 +1,33 @@
+body{
+    background-color: rgb(141, 131, 118);
+}
+#pic{
+    margin-top: 10%;
+    margin: 5%;
+    background-color: rgb(189, 186, 184);
+    box-shadow: 0 0 10px rgb(150, 93, 93);
+    padding: 50px;
+}
+#pic img{
+    width: 100% ;
+    height: auto;
+    margin-bottom:5px;
+}
+.head_1{
+    text-align: center;
+    font-family: Courier;
+    font-size: 50px;
+    margin-top: 3%;
+    font-weight: bold;
+    color: rgb(16, 198, 243);
+}
+.head_2{
+    text-align:center;
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(10, 63, 38);
+    font-weight: bold;
+    margin-top: 50px;
+}
+.space_down {
+    margin-bottom: 40px;
+}
